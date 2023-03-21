@@ -6,7 +6,16 @@ h1 {
     /* size: 3rem; */
     line-height: 1.5;
     font-weight: 900;
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: 7vmin;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3vmax; 
+    /* changes font size based on screen size, Bigger of 3.2vw or 3.2vh */
+    /* example: 3.2vw = 3.2% of width of viewport */
+    line-height: 1.5;
 }
 
 h3 {
@@ -22,7 +31,7 @@ p {
 
 /**********************CLASS SELECTORS*************************/
 
-
+/* Title Section */
 .container-fluid {
     padding: 5% 15%;
 }
@@ -55,6 +64,7 @@ p {
     width: 60%;
 }
 
+/* Features Section */
 .feature-box {
     text-align: center;
     padding: 5%;
@@ -71,6 +81,19 @@ p {
     color: #ff4c68;
 }
 
+/* Testimonials Section */
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
 /**********************ID SELECTORS*************************/
 #title {
     background-color: #ff4c68 ;
@@ -78,6 +101,18 @@ p {
 }
 
 #features {
-    /* margin: 200px 200px; */
     padding: 7% 15%;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ef8172;
+    color:white;
+}
+
+#press {
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 4%;
 }
