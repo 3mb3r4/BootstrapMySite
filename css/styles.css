@@ -1,0 +1,24 @@
+/* body {
+    padding-top: 56px; Height of the navbar
+  } */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+/**********************CLASS SELECTORS*************************/
+
+
+.container-fluid {
+    padding: 5% 15%;
+}
+
+
+/**********************ID SELECTORS*************************/
+#title {
+    background-color: #ff4c68 ;
+}
