@@ -1,45 +1,40 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-h1 {
-    /* size: 3rem; */
-    line-height: 1.5;
-    font-weight: 900;
-    /* font-size: 4rem; */
-    font-size: 7vmin;
-}
-
-
-h2 {
+h1 , h2, h3, h4, h5, h6 {
     font-weight: 700;
-    font-size: 3vmax; 
-    line-height: 1.5;
-}
-
-h3 {
-    font-weight: 700;
-    font-size: 2rem;
-    padding-top: 20px;
-    /* color: #000; */
 }
 
 p {
     color: #8F8F8F;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-em {
-    font-size: 1.5rem;
 }
 
 /**********************CLASS SELECTORS*************************/
 
-/* Title Section */
-.container-fluid {
-    padding: 5% 15% 7%;
+/* Heading Section */
+
+.title-heading {
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 7vmin;
 }
+
+.section-heading {
+    font-size: 3vmax;
+    line-height: 1.5;
+}
+
+
+/* Container Section */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navbar Section */
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -58,6 +53,12 @@ em {
 .nav-link {
     font-weight: 300;
     font-size: 1.5rem;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 .download-button {
@@ -84,8 +85,13 @@ em {
 
 
 /* Features Section */
+
+.feature-title {
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
 .feature-box {
-    text-align: center;
     padding: 5%;
     font-size: 1.3rem;
 }
@@ -109,16 +115,12 @@ em {
 }
 
 .testimonial-text {
-    font-weight: 700;
     font-size: 3vmax; 
     /* changes font size based on screen size, Bigger of 3.2vw or 3.2vh */
     /* example: 3.2vw = 3.2% of width of viewport */
     line-height: 1.5;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 
 .press-logo {
     width: 15%;
@@ -142,7 +144,6 @@ em {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 2;
-    padding: 7% 15%;
 }
 
 /* Footer Section */
@@ -155,42 +156,36 @@ em {
 #title {
     background-color: #ff4c68 ;
     color: #fff;
+    text-align: left;
 }
 
 #features {
     position: relative;
-    padding: 7% 15%;
     background-color: #fff;
 }
 
 #testimonials {
-    text-align: center;
     background-color:#ef8172;
     color:#fff;
 }
 
 #press {
     background-color:#ef8172;
-    text-align: center;
     padding-bottom: 4%;
 }
 
 #pricing {
-    text-align: center;
     padding: 100px;
 }
 
 #cta {
-    text-align: center;
     background-color: #ff4c68;
     color: #fff;
     padding: 5% 20%;
 }
 
 #footer {
-    text-align: center;
     font-size: 1rem;
-    padding: 7% 15%;
 }
 
 /**********************PHONE AND TABLET SETTINGS*************************/
@@ -202,7 +197,7 @@ em {
         text-align: center;
     }
 
-    .title-txt {
+    .title-heading {
         font-size: 6rem;
     }
 
@@ -223,9 +218,6 @@ em {
         font-size:1.7rem;
     }
 
-    em {
-        font-size: 1.5rem;
-    }
 
     .cta-title {
         padding-top: 20%;
