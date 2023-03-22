@@ -10,11 +10,10 @@ h1 {
     font-size: 7vmin;
 }
 
+
 h2 {
     font-weight: 700;
     font-size: 3vmax; 
-    /* changes font size based on screen size, Bigger of 3.2vw or 3.2vh */
-    /* example: 3.2vw = 3.2% of width of viewport */
     line-height: 1.5;
 }
 
@@ -26,14 +25,15 @@ h3 {
 }
 
 p {
-    color: #8F8F8F
+    color: #8F8F8F;
+    font-weight: 700
 }
 
 /**********************CLASS SELECTORS*************************/
 
 /* Title Section */
 .container-fluid {
-    padding: 5% 15%;
+    padding: 5% 15% 7%;
 }
 
 .navbar {
@@ -59,9 +59,16 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+.col-lg-6 {
+    position: relative;
+}
+
+
 .title-img {
     transform: rotate(25deg);
     width: 60%;
+    position: absolute;
+    right:30%;
 }
 
 /* Features Section */
@@ -89,30 +96,58 @@ p {
     margin: 20px;
 }
 
+.testimonial-text {
+    font-weight: 700;
+    font-size: 3vmax; 
+    /* changes font size based on screen size, Bigger of 3.2vw or 3.2vh */
+    /* example: 3.2vw = 3.2% of width of viewport */
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
+
+.btn-block {
+    width: 100%;
+}
+
+.pricing-col {
+    padding: 2% 3%;
+}
+
 /**********************ID SELECTORS*************************/
 #title {
     background-color: #ff4c68 ;
-    color: white;
+    color: #fff;
 }
 
 #features {
+    position: relative;
     padding: 7% 15%;
+    background-color: #fff;
 }
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color:#ef8172;
-    color:white;
+    color:#fff;
 }
 
 #press {
     background-color:#ef8172;
     text-align: center;
     padding-bottom: 4%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
 }
