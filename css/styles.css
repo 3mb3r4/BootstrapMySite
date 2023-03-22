@@ -81,6 +81,17 @@ p {
         transform: rotate(0);
         position: static;
     }
+
+    h3 {
+        font-size: 2.2rem;
+    }
+    p {
+        font-size:2rem;
+    }
+
+    em {
+        font-size: 1.5rem;
+    }
 }
 
 /* Features Section */
