@@ -19,14 +19,19 @@ h2 {
 
 h3 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 20px;
     /* color: #000; */
 }
 
 p {
     color: #8F8F8F;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+em {
+    font-size: 1.5rem;
 }
 
 /**********************CLASS SELECTORS*************************/
@@ -57,6 +62,11 @@ p {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+.btn-lg {
+    padding: 2%;
+    font-size: 1.5rem;
 }
 
 .col-lg-6 {
@@ -130,12 +140,16 @@ p {
 
 .cta-title {
     font-weight: 900;
-    font-size: 3rem;
-    padding: 5% 0%;
+    font-size: 3.5rem;
+    line-height: 2;
+    padding: 7% 15%;
 }
 
 /* Footer Section */
 
+.social-icon {
+    margin: 20px 10px;
+}
 
 /**********************ID SELECTORS*************************/
 #title {
@@ -176,13 +190,13 @@ p {
 #footer {
     text-align: center;
     font-size: 1rem;
-    padding: 5% 0%;
+    padding: 7% 15%;
 }
 
 /**********************PHONE AND TABLET SETTINGS*************************/
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1525px) {
 
     .container-fluid {
         text-align: center;
@@ -206,7 +220,7 @@ p {
         font-size: 2.2rem;
     }
     p {
-        font-size:2rem;
+        font-size:1.7rem;
     }
 
     em {
@@ -218,7 +232,7 @@ p {
     }
 
     #cta {
-        padding: 0 10%;
+        padding: 5% 10%;
     }
 
     #footer {
@@ -228,5 +242,9 @@ p {
 
     .copyright {
         font-size: 2rem;
+    }
+
+    .download-button {
+        padding: 5%;
     }
 }
