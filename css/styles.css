@@ -71,6 +71,18 @@ p {
     right:30%;
 }
 
+@media (max-width: 1250px) {
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+}
+
 /* Features Section */
 .feature-box {
     text-align: center;
