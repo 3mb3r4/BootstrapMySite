@@ -71,28 +71,7 @@ p {
     right:30%;
 }
 
-@media (max-width: 1250px) {
 
-    .container-fluid {
-        text-align: center;
-    }
-
-    .title-img {
-        transform: rotate(0);
-        position: static;
-    }
-
-    h3 {
-        font-size: 2.2rem;
-    }
-    p {
-        font-size:2rem;
-    }
-
-    em {
-        font-size: 1.5rem;
-    }
-}
 
 /* Features Section */
 .feature-box {
@@ -146,6 +125,18 @@ p {
     padding: 2% 3%;
 }
 
+
+/* CTA Section */
+
+.cta-title {
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 5% 0%;
+}
+
+/* Footer Section */
+
+
 /**********************ID SELECTORS*************************/
 #title {
     background-color: #ff4c68 ;
@@ -173,4 +164,69 @@ p {
 #pricing {
     text-align: center;
     padding: 100px;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 20%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 1rem;
+    padding: 5% 0%;
+}
+
+/**********************PHONE AND TABLET SETTINGS*************************/
+
+
+@media (max-width: 1250px) {
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .title-txt {
+        font-size: 6rem;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+
+    .btn-lg {
+        padding: 5%;
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+    }
+    p {
+        font-size:2rem;
+    }
+
+    em {
+        font-size: 1.5rem;
+    }
+
+    .cta-title {
+        padding-top: 20%;
+    }
+
+    #cta {
+        padding: 0 10%;
+    }
+
+    #footer {
+        font-size: 1rem;
+        padding: 5% 0%;
+    }
+
+    .copyright {
+        font-size: 2rem;
+    }
 }
