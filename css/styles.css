@@ -34,6 +34,17 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68 ;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* Navbar Section */
 
 .navbar {
@@ -154,24 +165,15 @@ p {
 
 /**********************ID SELECTORS*************************/
 #title {
-    background-color: #ff4c68 ;
-    color: #fff;
     text-align: left;
 }
 
 #features {
     position: relative;
-    background-color: #fff;
 }
 
-#testimonials {
+#testimonials, #press {
     background-color:#ef8172;
-    color:#fff;
-}
-
-#press {
-    background-color:#ef8172;
-    padding-bottom: 4%;
 }
 
 #pricing {
@@ -179,8 +181,6 @@ p {
 }
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
     padding: 5% 20%;
 }
 
